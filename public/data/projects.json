@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Task Management App",
+    "description": "A collaborative task management application with real-time updates and team features.",
+    "fullDescription": "This task management application helps teams organize and track their work efficiently. It includes features like task creation, assignment, due dates, comments, file attachments, and real-time updates. The app uses Firebase for real-time database and authentication, allowing team members to collaborate seamlessly and see changes as they happen.",
+    "image": "/placeholder.svg?height=600&width=1200&text=Task+App",
+    "tags": ["React", "Firebase", "Material UI"],
+    "features": [
+      "Task creation and assignment",
+      "Due dates and reminders",
+      "Comments and discussions",
+      "File attachments",
+      "Team collaboration",
+      "Real-time updates"
+    ],
+    "technologies": [
+      "React",
+      "Firebase Realtime Database",
+      "Firebase Authentication",
+      "Material UI",
+      "React DnD (drag and drop)",
+      "Firebase Storage"
+    ],
+    "demoUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "A collaborative task management application with real-time updates and team features.",
+    "fullDescription": "This task management application helps teams organize and track their work efficiently. It includes features like task creation, assignment, due dates, comments, file attachments, and real-time updates. The app uses Firebase for real-time database and authentication, allowing team members to collaborate seamlessly and see changes as they happen.",
+    "image": "/placeholder.svg?height=600&width=1200&text=Task+App",
+    "tags": ["React", "Firebase", "Material UI"],
+    "features": [
+      "Task creation and assignment",
+      "Due dates and reminders",
+      "Comments and discussions",
+      "File attachments",
+      "Team collaboration",
+      "Real-time updates"
+    ],
+    "technologies": [
+      "React",
+      "Firebase Realtime Database",
+      "Firebase Authentication",
+      "Material UI",
+      "React DnD (drag and drop)",
+      "Firebase Storage"
+    ],
+    "demoUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  },
+  {
+    "id": 3,
+    "title": "Task Management App",
+    "description": "A collaborative task management application with real-time updates and team features.",
+    "fullDescription": "This task management application helps teams organize and track their work efficiently. It includes features like task creation, assignment, due dates, comments, file attachments, and real-time updates. The app uses Firebase for real-time database and authentication, allowing team members to collaborate seamlessly and see changes as they happen.",
+    "image": "/placeholder.svg?height=600&width=1200&text=Task+App",
+    "tags": ["React", "Firebase", "Material UI"],
+    "features": [
+      "Task creation and assignment",
+      "Due dates and reminders",
+      "Comments and discussions",
+      "File attachments",
+      "Team collaboration",
+      "Real-time updates"
+    ],
+    "technologies": [
+      "React",
+      "Firebase Realtime Database",
+      "Firebase Authentication",
+      "Material UI",
+      "React DnD (drag and drop)",
+      "Firebase Storage"
+    ],
+    "demoUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  }
+]
