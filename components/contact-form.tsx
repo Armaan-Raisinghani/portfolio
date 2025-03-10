@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -36,7 +35,6 @@ const formSchema = z.object({
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const router = useRouter();
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -54,12 +52,13 @@ export function ContactForm() {
     try {
       await sendEmail(values);
 
-      toast.success("Thank you for your message. I'll get back to you soon."); 
+      toast.success("Thank you for your message. I'll get back to you soon.");
 
       form.reset();
       //router.push("/thank-you");
     } catch (error) {
       toast.error("Your message couldn't be sent. Please try again later.");
+      console.log(error);
     } finally {
       setIsSubmitting(false);
     }

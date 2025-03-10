@@ -6,9 +6,9 @@ export default function ExperiencePage() {
         <h2 className="mb-12 text-center text-3xl font-bold tracking-tight md:text-4xl">
           Work Experience
         </h2>
-        <div className="mx-auto max-w-3xl border-l-2 border-primary">
+        <div className="mx-auto max-w-3xl">
           {experience.map((job, index) => (
-            <div key={index} className="mb-8 pl-6">
+            <div key={index} className="mb-8 pl-6  border-l-2 border-primary">
               <h3 className="text-xl font-bold">{job.title}</h3>
               <div className="mb-2 flex items-center text-sm text-muted-foreground">
                 <span>{job.company}</span>

@@ -8,7 +8,7 @@ export default function ContactPage() {
         <div className="mb-8 text-center">
           <h1 className="mb-2 text-3xl font-bold md:text-4xl">Get in Touch</h1>
           <p className="text-muted-foreground">
-            Want to talk to me voluntarily for some fucking reason? Go on i
+            Want to talk to me voluntarily for some fucking reason? Go on I
             guess.
           </p>
         </div>

@@ -6,6 +6,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         >
           <div className="flex min-h-screen flex-col">
             <Header />
+            <Analytics />
             <main className="flex-1">
               {children} <Toaster position="bottom-center" />
             </main>

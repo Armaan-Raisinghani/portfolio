@@ -17,7 +17,7 @@ export default function Home() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I'm{" "}
+                  Hi, I&apos;m{" "}
                   <span className="text-primary">Armaan Raisinghani</span>
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
@@ -212,7 +212,7 @@ export default function Home() {
                 className="rounded-lg bg-card p-6 shadow-sm flex flex-col justify-between"
               >
                 <p className="mb-4 italic text-muted-foreground">
-                  "{testimonial.content}"
+                  {testimonial.content}
                 </p>
                 <div className="flex items-center ">
                   <div className="mr-4 h-10 w-10 overflow-hidden rounded-full bg-primary/10 relative aspect-square">

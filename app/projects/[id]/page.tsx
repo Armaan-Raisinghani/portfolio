@@ -11,9 +11,6 @@ interface ProjectPageProps {
 
 export default function ProjectPage({ params }: ProjectPageProps) {
   const projectId = Number.parseInt(params.id);
-
-  // In a real app, you would fetch this data from an API or database
-
   const project = projects.find((p) => p.id === projectId);
 
   if (!project) {
@@ -29,12 +26,11 @@ export default function ProjectPage({ params }: ProjectPageProps) {
         <ArrowLeft className="mr-1 h-4 w-4" /> Back to Projects
       </Link>
 
-      <div className="mb-8 overflow-hidden rounded-lg">
+      <div className="mb-8 overflow-hidden rounded-lg aspect-square relative">
         <Image
           src={project.image || "/placeholder.svg"}
           alt={project.title}
-          width={1200}
-          height={600}
+          fill
           className="w-full object-cover"
         />
       </div>

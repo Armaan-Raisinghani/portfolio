@@ -1,6 +1,5 @@
-import Link from "next/link"
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
-
+import Link from "next/link";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -44,4 +43,3 @@ export default function Footer() {
     </footer>
   );
 }
-
